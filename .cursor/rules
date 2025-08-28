@@ -1,0 +1,63 @@
+# Project Intelligence: Learning Next.js Blog
+
+## Project Overview
+
+Vietnamese Next.js learning blog documenting a 6-week learning journey. Personal project focused on mastering Next.js through practical implementation.
+
+## Key Patterns & Preferences
+
+### Content & Language
+
+- **Primary Language**: Vietnamese for all user-facing content
+- **Learning Focus**: Each blog post documents specific Next.js concepts
+- **Progress Tracking**: Visual indicators showing completed vs upcoming lessons
+- **Content Structure**: Structured learning with daily progression
+
+### Technical Decisions
+
+- **Framework**: Next.js 15.5.2 with App Router (not Pages Router)
+- **TypeScript**: Strict typing throughout, especially for blog data
+- **Styling**: Tailwind CSS v4 with utility-first approach
+- **Build Tool**: Turbopack for faster development and builds
+- **Package Manager**: Yarn preferred over npm
+
+### Architecture Preferences
+
+- **Static Data**: Use TypeScript interfaces instead of database complexity
+- **File Structure**: Follow Next.js App Router conventions strictly
+- **Component Organization**: Keep components simple and focused on learning
+- **Route Patterns**: Use dynamic routes for blog posts (`[slug]`)
+
+### Development Workflow
+
+- **Commands**: Always use `yarn dev`, `yarn build`, `yarn start`
+- **Environment**: Windows development environment considerations
+- **Version Control**: Work on `develop` branch, not `main`
+- **Documentation**: Maintain Memory Bank files for session continuity
+
+### Code Style & Standards
+
+- **Vietnamese Comments**: Technical comments can be in English, but content is Vietnamese
+- **Type Safety**: Never use `any` types, always define proper interfaces
+- **Import Organization**: Use Next.js path mapping when available
+- **Error Handling**: Include proper loading and error states for all routes
+
+### Known Issues & Considerations
+
+- **Windows Permission**: `.next/trace` file permission issues during build
+- **Learning Pace**: Respect the daily learning progression, don't rush ahead
+- **Content Quality**: Each blog post should be comprehensive and educational
+
+### Memory Bank Maintenance
+
+- **Required Files**: projectbrief.md, productContext.md, systemPatterns.md, techContext.md, activeContext.md, progress.md
+- **Update Triggers**: After significant changes or when user requests "update memory bank"
+- **Focus Areas**: Always update activeContext.md and progress.md to reflect current state
+
+### User Experience Priorities
+
+1. Learning effectiveness over complexity
+2. Vietnamese language accessibility
+3. Clear progress visualization
+4. Fast development feedback loop
+5. Clean, modern UI that doesn't distract from learning
